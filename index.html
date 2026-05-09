@@ -1,136 +1,159 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
 
-  <title>AI Workflow Dashboard</title>
+  <title>
+
+    AI Workflow Dashboard
+
+  </title>
 
   <link rel="stylesheet" href="style.css">
 
 </head>
 
+
 <body>
 
 
-  <h1>AI Workflow Dashboard</h1>
+  <h1>
+
+    AI-Powered Engineering Workflow Dashboard
+
+  </h1>
 
 
-  <div>
 
-    <h2>Project Metrics</h2>
+  <div class="stats">
 
-    <p>Total Tasks: 12</p>
 
-    <p>Completed: 7</p>
+    <div class="card">
 
-    <p>Progress: 58%</p>
+      <h3>
+
+        Developers
+
+      </h3>
+
+      <p>
+
+        3
+
+      </p>
+
+    </div>
+
+
+
+    <div class="card">
+
+      <h3>
+
+        Active Tasks
+
+      </h3>
+
+      <p>
+
+        3
+
+      </p>
+
+    </div>
+
+
+
+    <div class="card">
+
+      <h3>
+
+        Avg Performance
+
+      </h3>
+
+      <p>
+
+        90
+
+      </p>
+
+    </div>
+
 
   </div>
 
 
-  <div>
 
-    <h2>Developers</h2>
+  <h2>
 
-    <table>
+    Developer Data
 
-      <tr>
-
-        <th>Name</th>
-
-        <th>Skill</th>
-
-        <th>Workload</th>
-
-        <th>Performance</th>
-
-      </tr>
+  </h2>
 
 
-      <tr>
 
-        <td>Sarah</td>
-
-        <td>Frontend</td>
-
-        <td>2</td>
-
-        <td>90</td>
-
-      </tr>
+  <table>
 
 
-      <tr>
+    <tr>
 
-        <td>Mike</td>
+      <th>Name</th>
 
-        <td>Backend</td>
+      <th>Skill</th>
 
-        <td>5</td>
+      <th>Workload</th>
 
-        <td>85</td>
+      <th>Performance</th>
 
-      </tr>
-
-
-      <tr>
-
-        <td>Emma</td>
-
-        <td>Frontend</td>
-
-        <td>1</td>
-
-        <td>95</td>
-
-      </tr>
-
-    </table>
-
-  </div>
+    </tr>
 
 
-  <div>
 
-    <h2>Tasks</h2>
+    <tr>
 
-    <table>
+      <td>Sarah</td>
 
-      <tr>
+      <td>Frontend</td>
 
-        <th>Task</th>
+      <td>2</td>
 
-        <th>Required Skill</th>
+      <td>90</td>
 
-        <th>Priority</th>
-
-      </tr>
+    </tr>
 
 
-      <tr>
 
-        <td>Build Dashboard</td>
+    <tr>
 
-        <td>Frontend</td>
+      <td>Mike</td>
 
-        <td>High</td>
+      <td>Backend</td>
 
-      </tr>
+      <td>5</td>
+
+      <td>85</td>
+
+    </tr>
 
 
-      <tr>
 
-        <td>Create API</td>
+    <tr>
 
-        <td>Backend</td>
+      <td>Emma</td>
 
-        <td>Medium</td>
+      <td>Frontend</td>
 
-      </tr>
+      <td>1</td>
 
-    </table>
+      <td>95</td>
 
-  </div>
+    </tr>
+
+
+  </table>
+
 
 
   <button onclick="assignTask()">
@@ -139,15 +162,28 @@
 
   </button>
 
+
+
   <p id="result"></p>
 
-  <h2>Performance Analytics</h2>
+
+
+  <h2>
+
+    Performance Analytics
+
+  </h2>
+
+
 
   <canvas id="performanceChart"></canvas>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <script src="script.js"></script>
+
 
 </body>
 
