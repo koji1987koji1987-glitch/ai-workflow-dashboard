@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>AI Workflow Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <h1>AI Workflow Dashboard</h1>
+
+
+  <div>
+
+    <h2>Project Metrics</h2>
+
+    <p>Total Tasks: 12</p>
+
+    <p>Completed: 7</p>
+
+    <p>Progress: 58%</p>
+
+  </div>
+
+
+  <div>
+
+    <h2>Developers</h2>
+
+    <table>
+
+      <tr>
+
+        <th>Name</th>
+
+        <th>Skill</th>
+
+        <th>Workload</th>
+
+        <th>Performance</th>
+
+      </tr>
+
+
+      <tr>
+
+        <td>Sarah</td>
+
+        <td>Frontend</td>
+
+        <td>2</td>
+
+        <td>90</td>
+
+      </tr>
+
+
+      <tr>
+
+        <td>Mike</td>
+
+        <td>Backend</td>
+
+        <td>5</td>
+
+        <td>85</td>
+
+      </tr>
+
+
+      <tr>
+
+        <td>Emma</td>
+
+        <td>Frontend</td>
+
+        <td>1</td>
+
+        <td>95</td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+
+  <div>
+
+    <h2>Tasks</h2>
+
+    <table>
+
+      <tr>
+
+        <th>Task</th>
+
+        <th>Required Skill</th>
+
+        <th>Priority</th>
+
+      </tr>
+
+
+      <tr>
+
+        <td>Build Dashboard</td>
+
+        <td>Frontend</td>
+
+        <td>High</td>
+
+      </tr>
+
+
+      <tr>
+
+        <td>Create API</td>
+
+        <td>Backend</td>
+
+        <td>Medium</td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+
+  <button onclick="assignTask()">
+
+    Assign Task
+
+  </button>
+
+  <p id="result"></p>
+
+  <h2>Performance Analytics</h2>
+
+  <canvas id="performanceChart"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
