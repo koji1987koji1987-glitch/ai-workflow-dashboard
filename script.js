@@ -4,21 +4,21 @@ const developers = [
     name: "Sarah",
     skill: "Frontend",
     workload: 2,
-    performance: 90
+    performance: 98
   },
 
   {
     name: "Mike",
     skill: "Backend",
     workload: 5,
-    performance: 85
+    performance: 82
   },
 
   {
     name: "Emma",
     skill: "Frontend",
     workload: 1,
-    performance: 95
+    performance: 91
   }
 
 ];
